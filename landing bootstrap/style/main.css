@@ -1,0 +1,231 @@
+/* vendor */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+:root  {
+  --navbar: #0b9586 !important;
+  --yellow: #ffbb1c !important;
+  --button: #3cab90 !important;
+  --number: #84bd3a !important;
+  --bg:#3CAB900D !important;
+  --footer: #283646 !important;
+
+}
+body {
+  text-transform: capitalize;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  section{
+    margin: 50px 0;
+  }
+}
+
+.btne {
+  background:#ffbb1c ;
+  border: 1px solid transparent;
+
+  margin: 50px 20px;
+  width: 173;
+  height: 41;
+  padding-top: 12px;
+  padding-right: 34px;
+  padding-bottom: 12px;
+  padding-left: 34px;
+  gap: 10px;
+  border-radius: 109px;
+}
+.call{
+  
+  margin: 50px 20px;
+  width: 173;
+  height: 41;
+  padding-top: 12px;
+  padding-right: 34px;
+  padding-bottom: 12px;
+  padding-left: 34px;
+  gap: 10px;
+  border-radius: 109px;
+  background:#0b9586 ;
+  border: 1px solid transparent;
+  color: wheat;
+}
+
+/* header */
+header {
+  background-color: var(--navbar);
+  nav {
+ 
+    a{
+      font-size: 18px !important;
+      color: #fff !important;
+       }
+  }
+  
+  span{
+    font-size: 18px;
+    color: #fff !important;
+    
+  }
+  h3{
+    color: #fff !important;
+  }
+
+}
+p{
+  flex-wrap: wrap;
+}
+/* landing */
+
+.hero {
+  background: url(/img/images/solar-panels-meadow\ 1.png);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  color: floralwhite;
+  margin: 0;
+}
+.img{
+  background: url(/img/images/8116\ 1\ \(1\).png);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  background-attachment: fixed;
+  color: floralwhite;
+  .img-text{
+    width: 858px;
+height: 311px;
+gap: 32px;
+border-radius: 12px;
+padding: 44px;
+background: #00000091;
+
+
+  }
+}
+/* footer */
+.footer{
+ 
+  display: flex;
+  justify-content: space-around;
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 499px;
+    li{
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0%;
+    }
+    a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      margin: 1rem;
+    }
+  }
+  .inputs{
+
+margin: 3rem;
+h4{
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  color: #fff;
+}
+    input{
+      width: 406px;
+      height: 48px;
+      padding-left: 20px;
+      border-radius: 38px;
+      border-width: 1px;
+      
+    }
+  }
+
+}
+.coursel{
+  background: #3CAB900F;
+  span{
+    color: #0b9586;
+
+  }
+}
+.power{
+  background: url(/img/images/8116\ 1.png);
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  .text-img{
+    color: #fff;
+    align-items: center;
+    width: 678px;
+height: 212px;
+gap: 32px;
+
+  }
+}
+.d-flex{
+ 
+  span{
+    color: #84BD3A;
+   
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23.28px;
+    letter-spacing: 4px;
+    
+  }
+}
+.Rectangle{
+  position: relative;
+  .Solar{
+    position: absolute;
+    bottom: 0;
+    left: -40px;
+    border-radius: 12px;
+    
+  }
+}
+.lorem{
+  width: 358.6666564941406px;
+}
+.enrgy{
+  background: #3CAB900D !important;
+  border-radius: 12px;
+  border: 1px solid #3CAB90;
+  width: 358.6666564941406px !important;
+  margin: 1rem;
+  a{
+    color: black ;
+  }
+
+
+}
+button{
+  font-family: Inter;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0%;
+color: #3CAB90;
+border: transparent;
+i{
+color: #3CAB90;
+}
+
+}
+.products{
+  background: #FFBB1C0D;
+width: 100%;
+height: 100%
+}
