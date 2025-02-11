@@ -229,3 +229,17 @@ color: #3CAB90;
 width: 100%;
 height: 100%
 }
+/* login  */
+.form{
+  height: 40vh !important;
+  background: white !important;
+  width: 50vw !important;
+  border-radius: 12px;
+  input{
+    background: linear-gradient(135deg, wheat, black)
+  }
+  button{
+    background: linear-gradient(135deg, green, black);
+  border: transparent;
+  }
+}
