@@ -231,15 +231,19 @@ height: 100%
 }
 /* login  */
 .form{
-  height: 40vh !important;
+  height: 500px !important;
   background: white !important;
   width: 50vw !important;
   border-radius: 12px;
   input{
+    width: 100%;
     background: linear-gradient(135deg, wheat, black)
+    
   }
-  button{
-    background: linear-gradient(135deg, green, black);
-  border: transparent;
+  .btn{
+    background: linear-gradient(135deg, rgb(87, 188, 87), rgb(5, 67, 8));
+  border: none;
+  transition: 1s;
   }
+ 
 }
